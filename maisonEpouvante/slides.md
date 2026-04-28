@@ -48,60 +48,72 @@ image: https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80
 
 **La Petite Maison de l'Épouvante**
 
-- Fanzine spécialisé horreur / fantastique depuis 10 ans
-- 4 magasins physiques (Angoulême, Aix, Lyon, Londres)
-- Site vitrine actuel sans vente en ligne
-- Infrastructure IT hétérogène, gérée par 1 technicien
+- Fanzine horreur fondé il y a 10 ans · 4 magasins (France + Londres)
+- Festival annuel & collectif de production **Evil Ed**
+
+<br>
+
+**Legacy IT**
+
+- Site vitrine sans e-commerce · échanges CSV · 1 technicien
 
 <br>
 
 **Mission**
 
-En tant que Lead Developer, définir et mettre en œuvre un processus de développement DevSecOps pour livrer la v1 de la plateforme e-commerce.
+Livrer la v1 de la plateforme **Blockbuster** via un processus DevSecOps.
 
 ---
 
 # Enjeux
 
-**Objectifs stratégiques du projet**
+**La plateforme Blockbuster — Ce qu'il faut construire**
 
 <br>
 
-<div class="grid grid-cols-3 gap-4 mt-6 text-sm">
+<div class="grid grid-cols-4 gap-3 mt-4 text-sm">
 
 <div class="bg-blue-50 border border-blue-200 rounded-xl p-4">
   <div class="text-center mb-3">
-    <div class="text-3xl mb-2">🌐</div>
-    <div class="font-bold text-blue-700">Digitalisation</div>
+    <div class="font-bold text-blue-700">E-commerce</div>
   </div>
   <div class="text-xs text-gray-700 space-y-2">
-    <div>✓ Ouvrir la vente en ligne</div>
-    <div>✓ Unifier la gestion des stocks</div>
-    <div>✓ Supprimer les échanges manuels</div>
+    <div>✓ Produits physiques</div>
+    <div>✓ Produits numériques</div>
+    <div>✓ Liseuse intégrée</div>
+  </div>
+</div>
+
+<div class="bg-purple-50 border border-purple-200 rounded-xl p-4">
+  <div class="text-center mb-3">
+    <div class="font-bold text-purple-700">Communauté</div>
+  </div>
+  <div class="text-xs text-gray-700 space-y-2">
+    <div>✓ Espace d'échange & troc</div>
+    <div>✓ Chat passionnés</div>
+    <div>✓ Notifications perso.</div>
   </div>
 </div>
 
 <div class="bg-green-50 border border-green-200 rounded-xl p-4">
   <div class="text-center mb-3">
-    <div class="text-3xl mb-2">⚡</div>
-    <div class="font-bold text-green-700">Qualité & fiabilité</div>
+    <div class="font-bold text-green-700">Intelligence</div>
   </div>
   <div class="text-xs text-gray-700 space-y-2">
-    <div>✓ Garantir la disponibilité</div>
-    <div>✓ Réduire la dette technique</div>
-    <div>✓ Respecter ISO 25010</div>
+    <div>✓ Recommandations</div>
+    <div>✓ Comportement utilisateur</div>
+    <div>✓ Streaming & enchères (V2/V3)</div>
   </div>
 </div>
 
 <div class="bg-red-50 border border-red-200 rounded-xl p-4">
   <div class="text-center mb-3">
-    <div class="text-3xl mb-2">🔒</div>
-    <div class="font-bold text-red-700">Sécurité</div>
+    <div class="font-bold text-red-700">Contraintes</div>
   </div>
   <div class="text-xs text-gray-700 space-y-2">
-    <div>✓ Protéger les données (RGPD)</div>
-    <div>✓ Sécuriser les transactions</div>
-    <div>✓ Conformité réglementaire</div>
+    <div>✓ Sécurité prioritaire</div>
+    <div>✓ Hébergement Europe</div>
+    <div>✓ Conformité RGAA</div>
   </div>
 </div>
 
@@ -123,25 +135,21 @@ background: '#ffffff'
 <div class="grid grid-cols-4 gap-4 mt-6 text-center">
 
 <div class="bg-purple-50 rounded-xl p-4 border border-purple-200">
-  <div class="text-3xl mb-2">🎯</div>
   <div class="font-bold text-purple-700 text-sm">1. Plan</div>
   <div class="text-xs mt-2 text-gray-600">User stories<br>Backlog<br>Sprint planning</div>
 </div>
 
 <div class="bg-blue-50 rounded-xl p-4 border border-blue-200">
-  <div class="text-3xl mb-2">💻</div>
   <div class="font-bold text-blue-700 text-sm">2. Code</div>
   <div class="text-xs mt-2 text-gray-600">TDD<br>Code review<br>PHPStan/ESLint</div>
 </div>
 
 <div class="bg-orange-50 rounded-xl p-4 border border-orange-200">
-  <div class="text-3xl mb-2">🔨</div>
   <div class="font-bold text-orange-700 text-sm">3. Build & Test</div>
   <div class="text-xs mt-2 text-gray-600">Tests unitaires<br>Trivy scan<br>Docker build</div>
 </div>
 
 <div class="bg-green-50 rounded-xl p-4 border border-green-200">
-  <div class="text-3xl mb-2">🚀</div>
   <div class="font-bold text-green-700 text-sm">4. Deploy</div>
   <div class="text-xs mt-2 text-gray-600">Kubernetes<br>Vault secrets<br>Let's Encrypt</div>
 </div>
@@ -151,13 +159,11 @@ background: '#ffffff'
 <div class="grid grid-cols-2 gap-4 mt-4 text-center">
 
 <div class="bg-red-50 rounded-xl p-4 border border-red-200">
-  <div class="text-3xl mb-2">📊</div>
   <div class="font-bold text-red-700 text-sm">5. Operate & Monitor</div>
   <div class="text-xs mt-2 text-gray-600">Prometheus · Grafana · Alertmanager · Logs (Loki)</div>
 </div>
 
 <div class="bg-gray-50 rounded-xl p-4 border border-gray-200">
-  <div class="text-3xl mb-2">🔁</div>
   <div class="font-bold text-gray-700 text-sm">6. Feedback & Itération</div>
   <div class="text-xs mt-2 text-gray-600">Métriques ISO 25010 · Rétrospective · Remédiation</div>
 </div>
@@ -246,7 +252,7 @@ image: https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80
 **Vulnérabilités détectées**
 
 - Cible : 0 CVE critique en production
-- Mesuré via : Trivy (images Docker), Snyk (dépendances)
+- Mesuré via : Trivy (images Docker), Composer et Trivy (dépendances)
 - Délai de correction CVE critique : < 24 h
 
 <br>
@@ -267,7 +273,6 @@ Chaque vulnérabilité non corrigée est une dette de sécurité. L'automatisati
 
 <div class="bg-blue-50 border-2 border-blue-300 rounded-xl p-4">
   <div class="text-center mb-3">
-    <div class="text-2xl mb-1">🔍</div>
     <div class="font-bold text-blue-700">Workflow 1</div>
     <div class="text-xs text-blue-600">Push & Pull Requests</div>
   </div>
@@ -283,7 +288,6 @@ Chaque vulnérabilité non corrigée est une dette de sécurité. L'automatisati
 
 <div class="bg-green-50 border-2 border-green-300 rounded-xl p-4">
   <div class="text-center mb-3">
-    <div class="text-2xl mb-1">🚀</div>
     <div class="font-bold text-green-700">Workflow 2</div>
     <div class="text-xs text-green-600">Mise en production</div>
   </div>
@@ -311,14 +315,12 @@ Chaque vulnérabilité non corrigée est une dette de sécurité. L'automatisati
 <div class="flex items-center justify-center gap-3 mt-6">
 
 <div class="bg-purple-100 border-2 border-purple-400 rounded-lg px-4 py-3 text-center">
-  <div class="text-xl mb-1">📝</div>
   <div class="font-bold text-purple-800 text-sm">Push / PR</div>
 </div>
 
 <div class="text-2xl text-gray-400">→</div>
 
 <div class="bg-blue-100 border-2 border-blue-400 rounded-lg px-4 py-3 text-center">
-  <div class="text-xl mb-1">🔍</div>
   <div class="font-bold text-blue-800 text-sm">Qualité Code</div>
   <div class="text-xs text-gray-600 mt-1">PHPStan<br>ESLint</div>
 </div>
@@ -326,7 +328,6 @@ Chaque vulnérabilité non corrigée est une dette de sécurité. L'automatisati
 <div class="text-2xl text-gray-400">→</div>
 
 <div class="bg-orange-100 border-2 border-orange-400 rounded-lg px-4 py-3 text-center">
-  <div class="text-xl mb-1">📦</div>
   <div class="font-bold text-orange-800 text-sm">Dépendances</div>
   <div class="text-xs text-gray-600 mt-1">Composer<br>Trivy</div>
 </div>
@@ -334,7 +335,6 @@ Chaque vulnérabilité non corrigée est une dette de sécurité. L'automatisati
 <div class="text-2xl text-gray-400">→</div>
 
 <div class="bg-green-100 border-2 border-green-400 rounded-lg px-4 py-3 text-center">
-  <div class="text-xl mb-1">🧪</div>
   <div class="font-bold text-green-800 text-sm">Tests</div>
   <div class="text-xs text-gray-600 mt-1">Unitaires<br>Couverture</div>
 </div>
@@ -367,18 +367,15 @@ Chaque vulnérabilité non corrigée est une dette de sécurité. L'automatisati
 
 <div class="col-span-3 flex items-center justify-center gap-2">
   <div class="bg-purple-100 border-2 border-purple-400 rounded-lg px-3 py-2 text-center">
-    <div class="text-lg mb-1">🎯</div>
     <div class="font-bold text-purple-800">Push sur main</div>
   </div>
   <div class="text-xl text-gray-400">→</div>
   <div class="bg-blue-100 border-2 border-blue-400 rounded-lg px-3 py-2 text-center">
-    <div class="text-lg mb-1">🔍</div>
     <div class="font-bold text-blue-800">Qualité</div>
     <div class="text-gray-600">PHPStan + ESLint</div>
   </div>
   <div class="text-xl text-gray-400">→</div>
   <div class="bg-orange-100 border-2 border-orange-400 rounded-lg px-3 py-2 text-center">
-    <div class="text-lg mb-1">📦</div>
     <div class="font-bold text-orange-800">Dépendances</div>
     <div class="text-gray-600">Composer + Trivy</div>
   </div>
@@ -386,25 +383,21 @@ Chaque vulnérabilité non corrigée est une dette de sécurité. L'automatisati
 
 <div class="col-span-3 flex items-center justify-center gap-2 mt-2">
   <div class="bg-green-100 border-2 border-green-400 rounded-lg px-3 py-2 text-center">
-    <div class="text-lg mb-1">🧪</div>
     <div class="font-bold text-green-800">Tests</div>
     <div class="text-gray-600">Unitaires + Couverture</div>
   </div>
   <div class="text-xl text-gray-400">→</div>
   <div class="bg-indigo-100 border-2 border-indigo-400 rounded-lg px-3 py-2 text-center">
-    <div class="text-lg mb-1">🔨</div>
     <div class="font-bold text-indigo-800">Build</div>
     <div class="text-gray-600">Image Docker</div>
   </div>
   <div class="text-xl text-gray-400">→</div>
   <div class="bg-red-100 border-2 border-red-400 rounded-lg px-3 py-2 text-center">
-    <div class="text-lg mb-1">🛡️</div>
     <div class="font-bold text-red-800">Scan Image</div>
     <div class="text-gray-600">Trivy (CVE)</div>
   </div>
   <div class="text-xl text-gray-400">→</div>
   <div class="bg-emerald-100 border-2 border-emerald-400 rounded-lg px-3 py-2 text-center">
-    <div class="text-lg mb-1">🚀</div>
     <div class="font-bold text-emerald-800">Deploy</div>
     <div class="text-gray-600">Kubernetes</div>
   </div>
@@ -430,37 +423,32 @@ Chaque vulnérabilité non corrigée est une dette de sécurité. L'automatisati
 
 <div class="bg-red-50 border-2 border-red-300 rounded-xl p-4">
   <div class="text-center mb-3">
-    <div class="text-3xl mb-2">🔴</div>
-    <div class="font-bold text-red-700">Qualité Code</div>
+    <div class="font-bold text-red-700">Qualité du code</div>
   </div>
   <div class="text-xs text-gray-700">
-    <div class="mb-2">❌ <strong>Erreur PHPStan</strong></div>
-    <div class="mb-2">❌ <strong>Erreur ESLint</strong></div>
-    <div class="text-red-600 mt-3">→ Correction obligatoire</div>
+    <div class="mb-2"><strong>Erreur PHPStan</strong></div>
+    <div class="mb-2"><strong>Erreur ESLint</strong></div>
+    <div class="mb-2"><strong>Analyse cyclomatique</strong></div>
   </div>
 </div>
 
 <div class="bg-orange-50 border-2 border-orange-300 rounded-xl p-4">
   <div class="text-center mb-3">
-    <div class="text-3xl mb-2">🛡️</div>
     <div class="font-bold text-orange-700">Sécurité</div>
   </div>
   <div class="text-xs text-gray-700">
-    <div class="mb-2">❌ <strong>CVE critique</strong></div>
-    <div class="mb-2">❌ <strong>CVE haute</strong></div>
-    <div class="text-orange-600 mt-3">→ Merge refusé</div>
+    <div class="mb-2"><strong>CVE critique</strong></div>
+    <div class="mb-2"><strong>CVE haute</strong></div>
   </div>
 </div>
 
 <div class="bg-yellow-50 border-2 border-yellow-300 rounded-xl p-4">
   <div class="text-center mb-3">
-    <div class="text-3xl mb-2">📊</div>
     <div class="font-bold text-yellow-700">Tests</div>
   </div>
   <div class="text-xs text-gray-700">
-    <div class="mb-2">❌ <strong>Couverture < 80%</strong></div>
-    <div class="mb-2">❌ <strong>Tests en échec</strong></div>
-    <div class="text-yellow-600 mt-3">→ Pipeline bloqué</div>
+    <div class="mb-2"><strong>Couverture < 80%</strong></div>
+    <div class="mb-2"><strong>Tests en échec</strong></div>
   </div>
 </div>
 
@@ -479,49 +467,69 @@ Chaque vulnérabilité non corrigée est une dette de sécurité. L'automatisati
 <div class="grid grid-cols-5 gap-3 mt-4 text-xs">
 
 <div class="border border-blue-200 bg-blue-50 rounded-xl p-3">
-  <div class="text-xl mb-1">👨‍💻</div>
   <div class="font-bold text-blue-700 text-sm">Dev Backend</div>
   <div class="text-gray-500 mt-1">REST APIs · TDD · SQL · PHPStan · Git</div>
-  <div class="mt-2 pt-2 border-t border-blue-100 text-gray-600">🎓 Formation TDD & Clean Code<br>
-
+  <div class="mt-2 pt-2 border-t border-blue-100 text-gray-600">
+    <ul>
+      <li>Formation TDD & Clean Code<br></li>
+    </ul>
   </div>
 </div>
 
 <div class="border border-pink-200 bg-pink-50 rounded-xl p-3">
-  <div class="text-xl mb-1">🎨</div>
   <div class="font-bold text-pink-700 text-sm">Dev Frontend</div>
   <div class="text-gray-500 mt-1">React/Vue · Responsive · A11y · Tests composants</div>
-  <div class="mt-2 pt-2 border-t border-pink-100 text-gray-600">🎓 
-  Formation RGAA / Accessibilité numérique (Access42)<br>
-  Certification OpenJS Node.js / React
+  <div class="mt-2 pt-2 border-t border-pink-100 text-gray-600">
+  <ul>
+    <li>
+      Formation RGAA / Accessibilité numérique (Access42)<br></li>
+    <li>
+      Certification OpenJS Node.js / React
+    </li>
+  </ul>
   </div>
 </div>
 
 <div class="border border-orange-200 bg-orange-50 rounded-xl p-3">
-  <div class="text-xl mb-1">🛠️🧪</div>
   <div class="font-bold text-orange-700 text-sm">DevOps / QA</div>
   <div class="text-gray-500 mt-1">Kubernetes · CI/CD · Vault · JMeter · K6</div>
-  <div class="mt-2 pt-2 border-t border-orange-100 text-gray-600">🎓 Certification <strong>CKA</strong> (Certified Kubernetes Administrator)</div>
+  <div class="mt-2 pt-2 border-t border-orange-100 text-gray-600">
+  <ul>
+    <li>
+      Certification <strong>CKA</strong> (Certified Kubernetes Administrator)
+    </li>
+  </ul>
+  </div>
 </div>
 
 <div class="border border-red-200 bg-red-50 rounded-xl p-3">
-  <div class="text-xl mb-1">🔐</div>
   <div class="font-bold text-red-700 text-sm">Ingénieur Sécu.</div>
   <div class="text-gray-500 mt-1">Trivy · RBAC · RGPD · OWASP · CVE</div>
-  <div class="mt-2 pt-2 border-t border-red-100 text-gray-600">🎓 Certification <strong>CSSLP </strong> ou <strong>OWASP </strong></div>
+  <div class="mt-2 pt-2 border-t border-red-100 text-gray-600">
+    <ul>
+      <li>
+        Certification <strong>CSSLP </strong> ou <strong>OWASP </strong>
+      </li>
+    </ul>
+  </div>
 </div>
 
 <div class="border border-green-200 bg-green-50 rounded-xl p-3">
-  <div class="text-xl mb-1">📋</div>
   <div class="font-bold text-green-700 text-sm">Lead Developer</div>
   <div class="text-gray-500 mt-1">Agile/Scrum · Architecture · ISO 25010 · Reporting</div>
-  <div class="mt-2 pt-2 border-t border-green-100 text-gray-600">🎓 Formation ISO 25010</div>
+  <div class="mt-2 pt-2 border-t border-green-100 text-gray-600">
+    <ul>
+      <li>
+        Formation ISO 25010 & métriques qualité logicielle<br>
+      </li>
+    </ul>
+  </div>
 </div>
 
 </div>
 
 <div class="mt-4 bg-gray-50 border border-gray-200 rounded-xl p-3 text-xs text-gray-600">
-  💡 <strong>Plan de formation transverse</strong> : workshops DevSecOps mensuels · revues de code croisées · documentation interne partagée
+  <strong>Plan de formation transverse</strong> : workshops DevSecOps mensuels · revues de code croisées · documentation interne partagée
 </div>
 
 ---
@@ -555,7 +563,6 @@ image: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80
 
 # Architecture technique
 
-**Infrastructure Kubernetes en production**
 
 - **Cluster Kubernetes** : orchestration multi-environnements (dev, staging, prod)
 - **HashiCorp Vault** : gestion centralisée des secrets (DB credentials, API keys)
@@ -566,9 +573,39 @@ image: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80
 <br>
 
 **Avantages**
-✅ Scalabilité automatique (HPA)
-✅ Secrets jamais en clair dans le code
-✅ Certificats renouvelés automatiquement
+- **Scalabilité automatique**
+- **Secrets jamais en clair dans le code**
+- **Certificats renouvelés automatiquement**
+
+---
+
+# Schéma — Architecture technique
+
+```mermaid {scale: 0.6}
+graph LR
+  DEV["🧑‍💻 Dev\nGit Push"] --> CICD["⚙️ GitHub Actions\nCI/CD Pipeline"]
+  CICD --> IMG["📦 Image Docker"]
+  IMG --> K8S
+
+  subgraph SRV["🖥️ Serveur principal"]
+    subgraph K8S["☸️ Cluster Kubernetes"]
+      ING["🔀 Ingress NGINX\n+ SSL Let's Encrypt"]
+      ING --> FE["🖥️ Next.js\nFrontend"]
+      ING --> BE["⚙️ Symfony\nAPI REST"]
+      VAULT["🔐 Vault\nSecrets"] --> FE & BE
+    end
+    DB["🗄️ MySql"]
+    MON["📊 Prometheus + Grafana"]
+    BE --> DB
+  end
+
+  subgraph SRV2["🖥️ Serveur qualité"]
+    SONAR["🔍 SonarQube"]
+  end
+
+  CICD --> SONAR
+  USERS["🌐 Utilisateurs"] --> ING
+```
 
 ---
 
@@ -864,64 +901,6 @@ image: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80
 </div>
 
 </div>
-
----
-
-# Expérimentation (bac à sable)
-
-**Environnement de test isolé**
-
-- **Cluster K8s local** : Minikube / Kind pour développement
-- **Vault en mode dev** : test de l'intégration secrets
-- **Cert-manager staging** : validation Let's Encrypt sans limite de rate
-- **Tests de charge** : JMeter avec données anonymisées
-
-<br>
-
-**Objectifs**
-- Valider la configuration Kubernetes
-- Tester les politiques Vault
-- Vérifier le renouvellement automatique des certificats
-- Identifier les goulots d'étranglement
-
----
-
-# Développement de la fonctionnalité
-
-**Approche TDD (Test-Driven Development)**
-
-1. **Écrire les tests** unitaires avant le code
-2. **Développer** le minimum pour passer les tests
-3. **Refactorer** en maintenant la couverture
-4. **Intégration** : tests d'intégration avec base de données
-5. **Review** : validation par les pairs + PHPStan/ESLint
-
-<br>
-
-**Stack de tests**
-- Framework : Jest / pytest / JUnit selon langage
-- Mocks : services externes et Vault
-- Couverture : objectif ≥ 80 %
-- Assertions : validation données + comportements
-
----
-
-# Sécurité & observabilité
-
-**Sécurité multicouche**
-
-- **Trivy** : scan des images Docker (CVE dans les dépendances et l'OS)
-- **PHPStan + ESLint** : analyse statique du code (vulnérabilités, bugs, code smells)
-- **Vault** : rotation automatique des secrets tous les 30 jours
-- **Network policies** : isolation des pods dans Kubernetes
-- **RBAC** : droits minimaux pour chaque service
-
-<br>
-
-**Observabilité**
-- Logs centralisés : ELK / Loki
-- Métriques : Prometheus (CPU, RAM, latence)
-- Alertes : Alertmanager → Slack/PagerDuty
 
 ---
 
