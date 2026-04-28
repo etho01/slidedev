@@ -8,6 +8,7 @@ drawings:
   persist: false
 transition: fade
 duration: 20min
+lineNumbers: false
 ---
 
 # Superviser et Assurer le Développement
@@ -184,6 +185,7 @@ background: '#ffffff'
 | 3 | Couverture de tests | Maintenabilité |
 | 4 | Vulnérabilités détectées | Sécurité |
 
+
 ---
 layout: image-right
 image: https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80
@@ -199,6 +201,12 @@ image: https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80
 
 <br>
 
+**Lien dette technique**
+
+Sans ce suivi : dégradation progressive → refactorisation totale (coût x10)
+
+Avec ce suivi : optimisations incrémentales → coût maîtrisé
+
 ---
 layout: image-right
 image: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80
@@ -213,6 +221,12 @@ image: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80
 - MTTR cible : < 1 h
 
 <br>
+
+**Lien dette technique**
+
+Sans ce suivi : incidents récurrents → correctifs d'urgence non documentés
+
+Avec ce suivi : stabilité prouvée → confiance dans l'architecture
 
 
 ---
@@ -230,6 +244,12 @@ image: https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&q=80
 
 <br>
 
+**Lien dette technique**
+
+Sans ce suivi : code non testé = code intouchable → paralysie évolutive
+
+Avec ce suivi : code confiant → refactoring sans risque
+
 
 ---
 layout: image-right
@@ -245,6 +265,12 @@ image: https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80
 - Délai de correction CVE critique : < 24 h
 
 <br>
+
+**Lien dette technique**
+
+Sans ce suivi : dépendances obsolètes → migration forcée coûteuse
+
+Avec ce suivi : mises à jour régulières → coût de migration nul
 
 
 ---
@@ -443,6 +469,10 @@ image: https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80
 
 <div class="bg-green-50 border border-green-300 rounded-lg p-3 text-center text-sm">
   <strong>✅ Tous les critères respectés</strong> → Le code peut être mergé / déployé
+</div>
+
+<div class="mt-3 bg-purple-50 border border-purple-300 rounded-lg p-3 text-center text-xs">
+  <strong>💡 Prévention dette technique</strong> : Chaque blocage empêche l'introduction de code qui nécessiterait une correction future coûteuse
 </div>
 
 ---
